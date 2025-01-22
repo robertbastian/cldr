@@ -3712,21 +3712,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 					<daylight>AWDT</daylight>
 				</short>
 			</metazone>
-			<metazone type="China">
-				<long>
-					<daylight>China Summer Time</daylight>
-				</long>
-			</metazone>
-			<metazone type="Japan">
-				<long>
-					<daylight>Japan Summer Time</daylight>
-				</long>
-			</metazone>
-			<metazone type="Korea">
-				<long>
-					<daylight>Korean Summer Time</daylight>
-				</long>
-			</metazone>
 			<metazone type="Lord_Howe">
 				<short>
 					<generic>LHT</generic>
@@ -3740,16 +3725,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 					<standard>NZST</standard>
 					<daylight>NZDT</daylight>
 				</short>
-			</metazone>
-			<metazone type="Samoa">
-				<long>
-					<daylight>Samoa Summer Time</daylight>
-				</long>
-			</metazone>
-			<metazone type="Taipei">
-				<long>
-					<daylight>Taipei Summer Time</daylight>
-				</long>
 			</metazone>
 		</timeZoneNames>
 	</dates>
