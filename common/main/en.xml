@@ -3913,12 +3913,59 @@ annotations.
 			<regionFormat type="daylight">{0} Daylight Time</regionFormat>
 			<regionFormat type="standard">{0} Standard Time</regionFormat>
 			<fallbackFormat>{1} ({0})</fallbackFormat>
-			<zone type="Pacific/Honolulu">
-				<short>
-					<generic>HST</generic>
-					<standard>HST</standard>
-					<daylight>HDT</daylight>
-				</short>
+			<zone type="America/Mexico_City">
+				<exemplarCity>Mexico City</exemplarCity>
+			</zone>
+			<zone type="Antarctica/Casey">
+				<exemplarCity>Casey Station</exemplarCity>
+			</zone>
+			<zone type="Antarctica/DumontDUrville">
+				<exemplarCity>Dumont d’Urville Station</exemplarCity>
+			</zone>
+			<zone type="Antarctica/Macquarie">
+				<exemplarCity>Macquarie Island</exemplarCity>
+			</zone>
+			<zone type="Antarctica/Mawson">
+				<exemplarCity>Mawson Station</exemplarCity>
+			</zone>
+			<zone type="Antarctica/McMurdo">
+				<exemplarCity>McMurdo Station</exemplarCity>
+			</zone>
+			<zone type="Antarctica/Palmer">
+				<exemplarCity>Palmer Land</exemplarCity>
+			</zone>
+			<zone type="Antarctica/Rothera">
+				<exemplarCity>Rothera Station</exemplarCity>
+			</zone>
+			<zone type="Antarctica/Syowa">
+				<exemplarCity>Showa Station</exemplarCity>
+			</zone>
+			<zone type="Antarctica/Troll">
+				<exemplarCity>Troll Station</exemplarCity>
+			</zone>
+			<zone type="Antarctica/Vostok">
+				<exemplarCity>Vostok Station</exemplarCity>
+			</zone>
+			<zone type="Asia/Aqtau">
+				<exemplarCity>Aktau</exemplarCity>
+			</zone>
+			<zone type="Asia/Qostanay">
+				<exemplarCity>Kostanay</exemplarCity>
+			</zone>
+			<zone type="Asia/Qyzylorda">
+				<exemplarCity>Kyzylorda</exemplarCity>
+			</zone>
+			<zone type="Asia/Saigon">
+				<exemplarCity>Ho Chi Minh City</exemplarCity>
+			</zone>
+			<zone type="Atlantic/Canary">
+				<exemplarCity>Canary Islands</exemplarCity>
+			</zone>
+			<zone type="Atlantic/Faeroe">
+				<exemplarCity>Faroe Islands</exemplarCity>
+			</zone>
+			<zone type="Australia/Lord_Howe">
+				<exemplarCity>Lord Howe Island</exemplarCity>
 			</zone>
 			<zone type="Etc/UTC">
 				<long>
@@ -3938,17 +3985,54 @@ annotations.
 					<daylight>Irish Standard Time</daylight>
 				</long>
 			</zone>
-			<zone type="Asia/Qostanay">
-				<exemplarCity>Kostanay</exemplarCity>
+			<zone type="Indian/Chagos">
+				<exemplarCity>Chagos Archipelago</exemplarCity>
+			</zone>
+			<zone type="Indian/Christmas">
+				<exemplarCity>Christmas Island</exemplarCity>
+			</zone>
+			<zone type="Indian/Cocos">
+				<exemplarCity>Cocos Islands</exemplarCity>
+			</zone>
+			<zone type="Indian/Kerguelen">
+				<exemplarCity>Kerguelen Islands</exemplarCity>
+			</zone>
+			<zone type="Pacific/Chatham">
+				<exemplarCity>Chatham Islands</exemplarCity>
 			</zone>
 			<zone type="Pacific/Easter">
 				<exemplarCity>Easter Island</exemplarCity>
 			</zone>
+			<zone type="Pacific/Enderbury">
+				<exemplarCity>Canton Island</exemplarCity>
+			</zone>
+			<zone type="Pacific/Galapagos">
+				<exemplarCity>Galápagos Islands</exemplarCity>
+			</zone>
+			<zone type="Pacific/Honolulu">
+				<short>
+					<generic>HST</generic>
+					<standard>HST</standard>
+					<daylight>HDT</daylight>
+				</short>
+			</zone>
+			<zone type="Pacific/Kwajalein">
+				<exemplarCity>Kwajalein Atoll</exemplarCity>
+			</zone>
+			<zone type="Pacific/Marquesas">
+				<exemplarCity>Marquesas Islands</exemplarCity>
+			</zone>
+			<zone type="Pacific/Midway">
+				<exemplarCity>Midway Atoll</exemplarCity>
+			</zone>
+			<zone type="Pacific/Norfolk">
+				<exemplarCity>Norfolk Island</exemplarCity>
+			</zone>
+			<zone type="Pacific/Pitcairn">
+				<exemplarCity>Pitcairn Islands</exemplarCity>
+			</zone>
 			<zone type="Pacific/Wake">
 				<exemplarCity>Wake Island</exemplarCity>
-			</zone>
-			<zone type="Asia/Saigon">
-				<exemplarCity>Ho Chi Minh City</exemplarCity>
 			</zone>
 			<metazone type="Acre">
 				<long>
@@ -4128,7 +4212,7 @@ annotations.
 			</metazone>
 			<metazone type="Australia_Central">
 				<long>
-					<generic>Central Australia Time</generic>
+					<generic>Australian Central Time</generic>
 					<standard>Australian Central Standard Time</standard>
 					<daylight>Australian Central Daylight Time</daylight>
 				</long>
@@ -4142,14 +4226,14 @@ annotations.
 			</metazone>
 			<metazone type="Australia_Eastern">
 				<long>
-					<generic>Eastern Australia Time</generic>
+					<generic>Australian Eastern Time</generic>
 					<standard>Australian Eastern Standard Time</standard>
 					<daylight>Australian Eastern Daylight Time</daylight>
 				</long>
 			</metazone>
 			<metazone type="Australia_Western">
 				<long>
-					<generic>Western Australia Time</generic>
+					<generic>Australian Western Time</generic>
 					<standard>Australian Western Standard Time</standard>
 					<daylight>Australian Western Daylight Time</daylight>
 				</long>
@@ -4256,7 +4340,7 @@ annotations.
 				<long>
 					<generic>Cook Islands Time</generic>
 					<standard>Cook Islands Standard Time</standard>
-					<daylight>Cook Islands Half Summer Time</daylight>
+					<daylight>Cook Islands Summer Time</daylight>
 				</long>
 			</metazone>
 			<metazone type="Cuba">
@@ -4430,9 +4514,9 @@ annotations.
 			</metazone>
 			<metazone type="Hovd">
 				<long>
-					<generic>Hovd Time</generic>
-					<standard>Hovd Standard Time</standard>
-					<daylight>Hovd Summer Time</daylight>
+					<generic>Khovd Time</generic>
+					<standard>Khovd Standard Time</standard>
+					<daylight>Khovd Summer Time</daylight>
 				</long>
 			</metazone>
 			<metazone type="India">
@@ -4764,9 +4848,9 @@ annotations.
 			</metazone>
 			<metazone type="Qyzylorda">
 				<long>
-					<generic>Qyzylorda Time</generic>
-					<standard>Qyzylorda Standard Time</standard>
-					<daylight>Qyzylorda Summer Time</daylight>
+					<generic>Kyzylorda Time</generic>
+					<standard>Kyzylorda Standard Time</standard>
+					<daylight>Kyzylorda Summer Time</daylight>
 				</long>
 			</metazone>
 			<metazone type="Reunion">
