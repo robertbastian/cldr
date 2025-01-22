@@ -3269,7 +3269,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			</field>
 		</fields>
 		<timeZoneNames>
-			<regionFormat type="daylight">{0} Daylight Saving Time</regionFormat>
 			<zone type="America/St_Barthelemy">
 				<exemplarCity>Saint-Barthélemy</exemplarCity>
 			</zone>
@@ -3282,9 +3281,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			<zone type="America/St_Lucia">
 				<exemplarCity>Saint Lucia</exemplarCity>
 			</zone>
-			<zone type="Asia/Rangoon">
-				<exemplarCity>Rangoon</exemplarCity>
-			</zone>
 			<zone type="Atlantic/St_Helena">
 				<exemplarCity>Saint Helena</exemplarCity>
 			</zone>
@@ -3294,31 +3290,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			<zone type="America/St_Thomas">
 				<exemplarCity>Saint Thomas</exemplarCity>
 			</zone>
-			<metazone type="Alaska">
-				<long>
-					<daylight>Alaska Daylight Saving Time</daylight>
-				</long>
-			</metazone>
-			<metazone type="America_Central">
-				<long>
-					<daylight>Central Daylight Saving Time</daylight>
-				</long>
-			</metazone>
-			<metazone type="America_Eastern">
-				<long>
-					<daylight>Eastern Daylight Saving Time</daylight>
-				</long>
-			</metazone>
-			<metazone type="French_Southern">
-				<long>
-					<standard>French Southern and Antarctic Time</standard>
-				</long>
-			</metazone>
-			<metazone type="Iran">
-				<long>
-					<daylight>Iran Daylight Saving Time</daylight>
-				</long>
-			</metazone>
 			<metazone type="Newfoundland">
 				<short>
 					<generic>NT</generic>
@@ -3336,16 +3307,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 					<standard>PMST</standard>
 					<daylight>PMDT</daylight>
 				</short>
-			</metazone>
-			<metazone type="Samoa">
-				<long>
-					<daylight>Samoan Time</daylight>
-				</long>
-			</metazone>
-			<metazone type="Wallis">
-				<long>
-					<standard>Wallis and Futuna Time</standard>
-				</long>
 			</metazone>
 		</timeZoneNames>
 	</dates>
