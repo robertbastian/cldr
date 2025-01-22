@@ -3917,9 +3917,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			<zone type="Asia/Qostanay">
 				<exemplarCity>↑↑↑</exemplarCity>
 			</zone>
-			<zone type="Asia/Qyzylorda">
-				<exemplarCity>Kyzylorda</exemplarCity>
-			</zone>
 			<zone type="Asia/Almaty">
 				<exemplarCity>↑↑↑</exemplarCity>
 			</zone>
