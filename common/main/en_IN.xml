@@ -4911,13 +4911,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 					<daylight>↑↑↑</daylight>
 				</long>
 			</metazone>
-			<metazone type="Hovd">
-				<long>
-					<generic>Khovd Time</generic>
-					<standard>Khovd Standard Time</standard>
-					<daylight>Khovd Summer Time</daylight>
-				</long>
-			</metazone>
 			<metazone type="India">
 				<long>
 					<standard>↑↑↑</standard>
