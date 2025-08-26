@@ -5147,6 +5147,13 @@ annotations.
 					<daylight>Western European Summer Time</daylight>
 				</long>
 			</metazone>
+			<metazone type="Europe_Western">
+				<long>
+					<generic>Morocco Time</generic>
+					<standard>Morocco Standard Time</standard>
+					<daylight>Morocco Ramadan Time</daylight>
+				</long>
+			</metazone>
 			<metazone type="Falkland">
 				<long>
 					<generic>Falkland Islands Time</generic>
