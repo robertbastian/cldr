@@ -1681,7 +1681,7 @@ public class PathHeader implements Comparable<PathHeader> {
                                             "hourFormat",
                                             "gmtZeroFormat",
                                             "gmtUnknownFormat",
-                                            "dualFormat",
+                                            "dualOffsetFormat",
                                             "fallbackFormat");
 
                             if (fieldOrder.contains(source)) {
